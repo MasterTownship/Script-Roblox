@@ -24,7 +24,7 @@ OrionLib:MakeNotification({
 Tab:AddButton({
 	Name = "[🏖️EP 76 PART 1] Toilet Tower Defense Modded",
 	Callback = function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Script-Roblox/main/%5B%F0%9F%8F%96%EF%B8%8FEP%2076%20PART%201%5D%20Toilet%20Tower%20Defense%20Modded.lua')))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Script-Roblox/main/Protected_6390051916060514.txt')))()
   	end
 })
 
