@@ -36,16 +36,9 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Scrip
 })
 
 Tab:AddButton({
-	Name = "[UPD 4👽] Toilet Tower Defense But INF Coins | Coming Soon",
+	Name = "[UPD 4👽] Toilet Tower Defense But INF Coins!",
 	Callback = function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Script-Roblox/main/Protected_6390051916060514.txt')))()
-  	end
-})
-
-Tab:AddButton({
-	Name = "Toilet Tower Defense INF Coins [OG]",
-	Callback = function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Script-Roblox/main/Protected_6390051916060514.txt')))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Script-Roblox/main/Protected_7826318174128889.txt')))()
   	end
 })
 
