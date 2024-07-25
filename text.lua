@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Master Roblox HUB [BETA]", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Master Roblox HUB [FULLY RELEASED]", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Main",
@@ -42,5 +42,11 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Scrip
   	end
 })
 
+Tab:AddButton({
+	Name = "[NEW!] Noob Tower Defense!",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Script-Roblox/main/Noob%20Tower%20Defense!.txt')))()
+  	end
+})
+
 Tab2:AddLabel("Script Made By Master Roblox")
-Tab2:AddLabel("• Beta Version")
