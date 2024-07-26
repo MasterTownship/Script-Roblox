@@ -129,7 +129,7 @@ Tab2:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/RemoteHub/main/Main",true))()
   	end
 
-}))
+})
 
 
 Tab3:AddLabel("Script Made By Master Roblox")
