@@ -126,7 +126,7 @@ Tab2:AddButton({
 	
 		Callback = function()
 		
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/zephyr10101/RemoteHub/main/Main')))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/RemoteHub/main/Main",true))()
   	end
 
 }))
