@@ -30,7 +30,7 @@ local Tab2 = Window:MakeTab({
 
 local Tab3 = Window:MakeTab({
 
-	Name = "Logs",
+	Name = "Log",
 
 	Icon = "rbxassetid://4483345998",
 
@@ -120,6 +120,16 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/REDzHUB/RS/main/Simp
 
 })
 
+Tab2:AddButton({
+	
+	Name = "Remote Hub",
+	
+		Callback = function()
+		
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/zephyr10101/RemoteHub/main/Main')))()
+  	end
+
+}))
 
 
 Tab3:AddLabel("Script Made By Master Roblox")
