@@ -69,67 +69,41 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Scrip
 
 
 Tab:AddButton({
-
 	Name = "Toilet Tower Defense INF Coins [OG]",
-
 	Callback = function()
-
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Script-Roblox/main/Toilet%20Tower%20Defense%20INF%20Coins%20%5BOG%5D.lua')))()
-
   	end
-
 })
 
 
-
 Tab:AddButton({
-
 	Name = "[UPD 4👽] Toilet Tower Defense But INF Coins!",
-
 	Callback = function()
-
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Script-Roblox/main/Protected_7826318174128889.txt')))()
-
   	end
-
 })
 
 
-
 Tab:AddButton({
-
 	Name = "[NEW!] Noob Tower Defense!",
-
 	Callback = function()
-
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Script-Roblox/main/Noob%20Tower%20Defense!.txt')))()
-
   	end
-
 })
 
 
 Tab2:AddButton({
-
 	Name = "Simple Spy : Mobile",
-
 	Callback = function()
-
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/REDzHUB/RS/main/SimpleSpyMobile')))()
   	end
-
 })
 
-Tab2:AddButton({
-	
-	Name = "Remote Hub",
-	
-		Callback = function()
-		
+Tab2:AddButton({	
+	Name = "Remote Hub",	
+		Callback = function()		
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/RemoteHub/main/Main",true))()
   	end
-
 })
-
 
 Tab3:AddLabel("Script Made By Master Roblox")
