@@ -75,9 +75,9 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Scrip
 })
 
 Tab:AddButton({
-	Name = "TRADE!🤝 Champions Defender⚔️TDS",
+	Name = "[ FIXING BUGS ] Toilet Attack Tower Defense | Game Closed Currently",
 	Callback = function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Script-Roblox/main/Champions%20Defender.txt')))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Script-Roblox/main/(Obf)Toilet%20Attack%20Tower%20Defense.lua')))()
   	end
 })
 
@@ -92,6 +92,13 @@ Tab2:AddButton({
 	Name = "Remote Hub",	
 		Callback = function()		
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/RemoteHub/main/Main",true))()
+  	end
+})
+
+Tab2:AddButton({	
+	Name = "Free Gamepass",	
+		Callback = function()		
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/BaconBossScript/Crazy/main/Crazy'),true))()
   	end
 })
 
