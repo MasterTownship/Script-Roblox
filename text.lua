@@ -75,7 +75,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Scrip
 })
 
 Tab:AddButton({
-	Name = "[ FIXING BUGS ] Toilet Attack Tower Defense",
+	Name = "[ UPDATE 2 ] Toilet Attack Tower Defense",
 	Callback = function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Script-Roblox/main/(Obf)Toilet%20Attack%20Tower%20Defense.lua')))()
   	end
@@ -104,7 +104,7 @@ loadstring(game:GetObjects("rbxassetid://418957341")[1].Source)()
 })
 
 Tab2:AddButton({	
-	Name = "Free Gamepass All Game",	
+	Name = "Free Gamepass",	
 		Callback = function()		
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/BaconBossScript/Crazy/main/Crazy'),true))()
   	end
