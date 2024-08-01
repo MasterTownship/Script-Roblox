@@ -75,7 +75,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Scrip
 })
 
 Tab:AddButton({
-	Name = "[ FIXING BUGS ] Toilet Attack Tower Defense | Game Closed Currently",
+	Name = "[ FIXING BUGS ] Toilet Attack Tower Defense",
 	Callback = function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Script-Roblox/main/(Obf)Toilet%20Attack%20Tower%20Defense.lua')))()
   	end
@@ -95,8 +95,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/RemoteHub
   	end
 })
 
+
 Tab2:AddButton({	
-	Name = "Free Gamepass",	
+	Name = "Dex V4",	
+		Callback = function()		
+loadstring(game:GetObjects("rbxassetid://418957341")[1].Source)()
+  	end
+})
+
+Tab2:AddButton({	
+	Name = "Free Gamepass All Game",	
 		Callback = function()		
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/BaconBossScript/Crazy/main/Crazy'),true))()
   	end
