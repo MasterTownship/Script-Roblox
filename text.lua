@@ -81,6 +81,13 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Scrip
   	end
 })
 
+Tab:AddButton({
+	Name = "TRADE!🤝 Champions Defenders⚔️TDS",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/MasterTownship/Script-Roblox/main/Champions%20Defender.txt')))()
+  	end
+})
+
 Tab2:AddButton({
 	Name = "Simple Spy : Mobile",
 	Callback = function()
